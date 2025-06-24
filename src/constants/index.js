@@ -31,7 +31,7 @@ const words = [
 const counterItems = [
   { value: 0, suffix: "", label: "Fresher" },
   { value: 10, suffix: "+", label: "Certificate completion" },
-  { value: 1, suffix: "", label: "Completed Project" },
+  { value: 2, suffix: "", label: "Completed Project" },
   { value: 7.0, suffix: "%", label: "CGPA" }
 ];
 
@@ -220,7 +220,7 @@ const testimonials = [
     review:"I see the world not just for what it is, but for what it could be. My dreams are the blueprint of the life I’m building — bold, limitless, and deeply personal. I believe in imagining more, even when reality says less.To me, dreaming isn’t about escaping the present — it’s about shaping the future. I carry my visions with hope, patience, and the courage to take the first step, even when the path is unclear."
   },
   {
-    name: "As a Philosopher",
+    name: "My Philoshophy",
     review: "தெய்வத்தான் ஆகாதெனினும் முயற்சிதன், மெய்வருத்தக் கூலி தரும்.",
 },
   {
