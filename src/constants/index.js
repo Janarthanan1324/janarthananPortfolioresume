@@ -228,22 +228,20 @@ const testimonials = [
     review:"I lead with purpose, empathy, and a relentless drive for excellence. I believe leadership is not about authority, but about empowering others to reach their full potential. I value collaboration, clear communication, and integrity in every decision I make. Whether navigating challenges or celebrating wins, I stay grounded, adaptable, and focused on the bigger picture.I thrive in environments where innovation meets impact, and I’m not afraid to roll up my sleeves and work alongside my team. I foster trust, promote growth, and lead by example—because real leadership is shown through action, not titles."
   },
 ];
-
 const socialImgs = [
   {
     name: "insta",
-    url: "https://www.instagram.com/__mr.pikachu.___/?igsh=MXU4NHppMWVkc204OQ%3D%3D#",
+    url: "https://www.instagram.com/__mr.pikachu.___/",
     imgPath: "/images/insta.png",
   },
-
   {
     name: "x",
-    url:" https://x.com/Janarth52752783?t=cArWATO6aOr1XIS-1ak6cQ&s=08",
+    url: "https://x.com/Janarth52752783?t=cArWATO6aOr1XIS-1ak6cQ&s=08",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
-    url:"https://www.linkedin.com/in/janarthanan-s-130058304/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    url: "https://www.linkedin.com/in/janarthanan-s-130058304/",
     imgPath: "/images/linkedin.png",
   },
 ];
