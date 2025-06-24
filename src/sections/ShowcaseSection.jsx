@@ -69,7 +69,7 @@ const AppShowcase = () => {
                   alt="Fraud Detection Platform"
                 />
               </div>
-              <h2>Specific movie Related videos</h2>
+              <h2>Fraud Detection Platform</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
