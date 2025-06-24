@@ -230,21 +230,39 @@ const testimonials = [
 ];
 const socialImgs = [
   {
-    name: "insta",
+    name: "Instagram",
     url: "https://www.instagram.com/__mr.pikachu.___/",
     imgPath: "/images/insta.png",
   },
   {
-    name: "x",
+    name: "X",
     url: "https://x.com/Janarth52752783?t=cArWATO6aOr1XIS-1ak6cQ&s=08",
     imgPath: "/images/x.png",
   },
   {
-    name: "linkedin",
+    name: "LinkedIn",
     url: "https://www.linkedin.com/in/janarthanan-s-130058304/",
     imgPath: "/images/linkedin.png",
   },
 ];
+
+export default function SocialIcons() {
+  return (
+    <div style={{ display: "flex", gap: "20px" }}>
+      {socialImgs.map((social) => (
+        <a
+          key={social.name}
+          href={social.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={social.imgPath} alt={social.name} width={40} />
+        </a>
+      ))}
+    </div>
+  );
+}
+
 
 export {
   words,
