@@ -1,20 +1,8 @@
 const navLinks = [
-  {
-    name: "Work",
-    link: "#work",
-  },
-  {
-    name: "Education",
-    link: "#experience",
-  },
-  {
-    name: "Skills",
-    link: "#skills",
-  },
-  {
-    name: "About me",
-    link: "#testimonials",
-  },
+  { name: "Work", link: "#work" },
+  { name: "Education", link: "#experience" },
+  { name: "Skills", link: "#skills" },
+  { name: "About me", link: "#testimonials" },
 ];
 
 const words = [
@@ -32,43 +20,21 @@ const counterItems = [
   { value: 0, suffix: "", label: "Fresher" },
   { value: 10, suffix: "+", label: "Certificate completion" },
   { value: 3, suffix: "", label: "Completed Project" },
-  { value: 7.0, suffix: "%", label: "CGPA" }
+  { value: 7.0, suffix: "%", label: "CGPA" },
 ];
 
 const logoIconsList = [
-  {
-    imgPath: "/images/logos/Tableau.png",
-  },
-  {
-    imgPath: "/images/logos/Rprogram.png",
-  },
-  {
-    imgPath: "/images/logos/pngegg.png",
-  },
-  {
-    imgPath: "/images/logos/jupyter-seeklogo.png",
-  },
-  {
-    imgPath: "/images/logos/seaborn-seeklogo.png",
-  },
-  {
-    imgPath: "/images/logos/microsoft-excel-seeklogo.png",
-  },
-  {
-    imgPath: "/images/logos/ibm-cognos-seeklogo.png",
-  },
-  {
-    imgPath: "/images/logos/watson.png",
-  },
-  {
-    imgPath: "/images/logos/pngwing.png",
-  },
-  {
-    imgPath: "/images/logos/matlab.png",
-  },
-  {
-    imgPath: "/images/logos/info.png",
-  },
+  { imgPath: "/images/logos/Tableau.png" },
+  { imgPath: "/images/logos/Rprogram.png" },
+  { imgPath: "/images/logos/pngegg.png" },
+  { imgPath: "/images/logos/jupyter-seeklogo.png" },
+  { imgPath: "/images/logos/seaborn-seeklogo.png" },
+  { imgPath: "/images/logos/microsoft-excel-seeklogo.png" },
+  { imgPath: "/images/logos/ibm-cognos-seeklogo.png" },
+  { imgPath: "/images/logos/watson.png" },
+  { imgPath: "/images/logos/pngwing.png" },
+  { imgPath: "/images/logos/matlab.png" },
+  { imgPath: "/images/logos/info.png" },
 ];
 
 const abilities = [
@@ -90,59 +56,19 @@ const abilities = [
 ];
 
 const techStackImgs = [
-  {
-    name: " Data Scientist",
-    imgPath: "/images/logos/powerbi.png",
-  },
-  {
-    name: "Machine Learning Engineer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: " AI/ML Research Engineer",
-    imgPath: "/images/logos/tensor.png",
-  },
-  {
-    name: "Data Analyst (Advanced)",
-    imgPath: "/images/logos/microsoft-excel-seeklogo.png",
-  },
-  {
-    name: " Data Engineer",
-    imgPath: "/images/logos/mongo.png",
-  },
+  { name: " Data Scientist", imgPath: "/images/logos/powerbi.png" },
+  { name: "Machine Learning Engineer", imgPath: "/images/logos/python.svg" },
+  { name: " AI/ML Research Engineer", imgPath: "/images/logos/tensor.png" },
+  { name: "Data Analyst (Advanced)", imgPath: "/images/logos/microsoft-excel-seeklogo.png" },
+  { name: " Data Engineer", imgPath: "/images/logos/mongo.png" },
 ];
 
 const techStackIcons = [
-  {
-    name: "Data Scientist",
-    modelPath: "/models/PowerBi.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Machine Learning Engineer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "AI/ML Research Engineer",
-    modelPath: "/models/git.glb",
-    scale:5 ,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Data Analyst",
-    modelPath: "/models/MSExel.glb",
-    scale: 5,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Data Engineer",
-    modelPath: "/models/aws_logo.glb",
-    scale: 0.2,
-    rotation: [0, 0, 0],
-  },
+  { name: "Data Scientist", modelPath: "/models/PowerBi.glb", scale: 1, rotation: [0, 0, 0] },
+  { name: "Machine Learning Engineer", modelPath: "/models/python-transformed.glb", scale: 0.8, rotation: [0, 0, 0] },
+  { name: "AI/ML Research Engineer", modelPath: "/models/git.glb", scale: 5, rotation: [0, 0, 0] },
+  { name: "Data Analyst", modelPath: "/models/MSExel.glb", scale: 5, rotation: [0, 0, 0] },
+  { name: "Data Engineer", modelPath: "/models/aws_logo.glb", scale: 0.2, rotation: [0, 0, 0] },
 ];
 
 const expCards = [
@@ -155,7 +81,7 @@ const expCards = [
       "Completed 12th grade with a focus on Computer Science and Mathematics.",
       "Gained a strong foundation in programming, algorithms, and problem-solving.",
       "Applied logical thinking to solve complex mathematical and coding challenges.",
-      "Developed a passion for technology through hands-on projects and learning."
+      "Developed a passion for technology through hands-on projects and learning.",
     ],
   },
   {
@@ -167,7 +93,7 @@ const expCards = [
       "Pursued a Bachelor's degree in Computer Science, focusing on core computing principles.",
       "Gained hands-on experience in programming, data structures, and software development.",
       "Worked on real-time projects involving web development and data analysis.",
-      "Strengthened problem-solving, teamwork, and technical communication skills."
+      "Strengthened problem-solving, teamwork, and technical communication skills.",
     ],
   },
   {
@@ -179,90 +105,49 @@ const expCards = [
       "Will complete a Postgraduate degree in Data Science and Business Intelligence.",
       "Aiming to master data analytics, machine learning, and strategic decision-making.",
       "Planning to work on real-world projects involving big data and AI-driven insights.",
-      "Preparing to drive business value through data storytelling and predictive modeling."
+      "Preparing to drive business value through data storytelling and predictive modeling.",
     ],
   },
 ];
 
 const expLogos = [
-  {
-    name: "logo1",
-    imgPath: "/images/ssvm.jpg",
-  },
-  {
-    name: "logo2",
-    imgPath: "/images/srkv.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/rathinam.png",
-  },
+  { name: "logo1", imgPath: "/images/ssvm.jpg" },
+  { name: "logo2", imgPath: "/images/srkv.png" },
+  { name: "logo3", imgPath: "/images/rathinam.png" },
 ];
 
 const testimonials = [
   {
     name: "In Life",
-    review:
-      "I'm Janarthanan, a passionate learner, a resilient soul, and someone who believes in turning everyday moments into meaningful milestones. Life has taught me the value of consistency, curiosity, and compassion. From a young age, I’ve always been driven to understand how things work — whether it was through technology, people, or the patterns of life itself.",
+    review: "I'm Janarthanan, a passionate learner, a resilient soul...",
   },
   {
     name: "As a Data Scientist",
-    review:
-     "I am someone who believes that data, when used wisely, has the power to transform decisions, empower people, and shape the future. My role goes beyond writing code or building models; it’s about asking the right questions, understanding the \"why,\" and delivering clarity in the chaos.Curious by nature and analytical by mindset, I embrace uncertainty with logic and approach challenges with creativity. Whether it's predicting outcomes, automating processes, or visualizing trends, I strive to make data understandable, accessible, and impactful."
-
+    review: "I am someone who believes that data, when used wisely, has the power to transform decisions...",
   },
   {
     name: "As a Learner",
-    review:"I am someone who finds joy in learning, no matter how big or small the lesson. I believe that growth happens one step at a time, and I’m always ready to take that next step. Whether it’s understanding a new concept, mastering a tool, or learning from a mistake — I welcome it all with an open heart.To me, being a learner means staying curious, being patient with myself, and never being afraid to ask “why” or “how.” I believe every moment offers something to learn, and I try to absorb as much as I can — from people, from experiences, and from challenges."
+    review: "I am someone who finds joy in learning, no matter how big or small the lesson...",
   },
   {
     name: "As a Dreamer",
-    review:"I see the world not just for what it is, but for what it could be. My dreams are the blueprint of the life I’m building — bold, limitless, and deeply personal. I believe in imagining more, even when reality says less.To me, dreaming isn’t about escaping the present — it’s about shaping the future. I carry my visions with hope, patience, and the courage to take the first step, even when the path is unclear."
+    review: "I see the world not just for what it is, but for what it could be...",
   },
   {
-    name: "My Philoshophy",
+    name: "My Philosophy",
     review: "தெய்வத்தான் ஆகாதெனினும் முயற்சிதன், மெய்வருத்தக் கூலி தரும்.",
-},
+  },
   {
-    name: "As a Leader ",
-    review:"I lead with purpose, empathy, and a relentless drive for excellence. I believe leadership is not about authority, but about empowering others to reach their full potential. I value collaboration, clear communication, and integrity in every decision I make. Whether navigating challenges or celebrating wins, I stay grounded, adaptable, and focused on the bigger picture.I thrive in environments where innovation meets impact, and I’m not afraid to roll up my sleeves and work alongside my team. I foster trust, promote growth, and lead by example—because real leadership is shown through action, not titles."
+    name: "As a Leader",
+    review: "I lead with purpose, empathy, and a relentless drive for excellence...",
   },
 ];
+
 const socialImgs = [
-  {
-    name: "Instagram",
-    url: "https://www.instagram.com/__mr.pikachu.___/",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "X",
-    url: "https://x.com/Janarth52752783?t=cArWATO6aOr1XIS-1ak6cQ&s=08",
-    imgPath: "/images/x.png",
-  },
-  {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/janarthanan-s-130058304/",
-    imgPath: "/images/linkedin.png",
-  },
+  { name: "Instagram", url: "https://www.instagram.com/__mr.pikachu.___/", imgPath: "/images/insta.png" },
+  { name: "X", url: "https://x.com/Janarth52752783?t=cArWATO6aOr1XIS-1ak6cQ&s=08", imgPath: "/images/x.png" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/janarthanan-s-130058304/", imgPath: "/images/linkedin.png" },
 ];
-
-export default function SocialIcons() {
-  return (
-    <div style={{ display: "flex", gap: "20px" }}>
-      {socialImgs.map((social) => (
-        <a
-          key={social.name}
-          href={social.url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={social.imgPath} alt={social.name} width={40} />
-        </a>
-      ))}
-    </div>
-  );
-}
-
 
 export {
   words,
