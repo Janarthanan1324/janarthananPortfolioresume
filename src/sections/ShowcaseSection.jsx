@@ -74,7 +74,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/news.png" alt="YC Directory App" />
+                <img src="/images/news.png" alt="Fake News Detections" />
               </div>
               <h2>Fake News Detection</h2>
             </div>
